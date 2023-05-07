@@ -1,0 +1,10 @@
+
+app:
+  name: FooApp
+  message: Hello in the ${app.name} application
+  akatsuki: nagato,hitachi,deidata,sasori
+
+db:
+  connection: "{host: '0.0.0.0', port: '5432', username: 'postgres', password:'somethingsecret'}"
+  name: hr_db
+
