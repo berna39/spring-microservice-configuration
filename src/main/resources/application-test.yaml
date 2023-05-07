@@ -1,13 +1,10 @@
 
 app:
-  name: FooApp
-  message: Hello in the ${app.name} application
+  name: FooAppTest
+  message: Hello in the ${app.name} application test
   akatsuki: nagato,hitachi,deidata,sasori
 
 db:
   connection: "{host: '0.0.0.0', port: '5432', username: 'postgres', password:'somethingsecret'}"
-  name: hr_db
+  name: hr_db_test
 
-spring:
-  profiles:
-    active: test
